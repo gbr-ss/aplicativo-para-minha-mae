@@ -51,7 +51,7 @@ def deletar_agendamento(id_agenda):
     supabase.table("agenda").delete().eq("id", id_agenda).execute()
 
 # Menu lateral
-menu = st.sidebar.selectbox("Menu", ["Adicionar", "Listar", "Atualizar", "Deletar"])
+menu = st.sidebar.radio("Menu", ["Adicionar", "Listar", "Atualizar", "Deletar"])
 
 # Adicionar
 if menu == "Adicionar":
