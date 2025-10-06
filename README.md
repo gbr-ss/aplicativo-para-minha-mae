@@ -1,4 +1,4 @@
-# 📅 Agenda da Mamãe
+# 📅 Agenda para minha Mãe
 
 Aplicativo simples de agenda feito com **Streamlit**, **Supabase** e **Pandas**, para ajudar a organizar os compromissos do dia a dia de forma prática e bonita.
 
